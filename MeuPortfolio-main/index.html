@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luís Trein | Home</title>
+  <meta name="description" content="Portfólio Front End Developer - Luís Trein">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="/imgs/favicon.ico" rel="icon" type="image/x-icon" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-51H2XTE9XE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-51H2XTE9XE');
+  </script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-content" data-menu="suave">
+        <div class="nav-logo">
+          <h2>L</h2>
+        </div>
+        <div class="nav-list">
+          <button class="btn-mobile">
+            <span id="hamburguer"></span>
+          </button>
+          <ul id="list">
+            <li><a href="#descricao">Home</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li data-dropdown>
+              <a href="#descricao">Contato</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="https://www.linkedin.com/in/luís-eduardo-trein-rocha-55b087234/" target="_blank"><img
+                      src="imgs/logos/linkedin-black.png" alt="Linkedin" width="35" height="35"></a>
+                </li>
+                <li>
+                  <a href="https://github.com/TreinLuis" target="_blank"><img
+                      src="imgs/logos/github-logo-footer.png" alt="GitHub" width="35" height="35">
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:21luiseduardo2005@gmail.com" target="_blank"><img src="imgs/logos/email-black.png"
+                      alt="E-mail" width="35" height="35"></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/luistrein/" target="_blank"><img src="imgs/logos/insta-logo.png"
+                      alt="Instagram" width="35" height="35"></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="descricao" id="descricao">
+    <div class="container-descricao">
+      <div class="descricao-apresentacao">
+        <h1 class="titulo">Seja Bem Vindo, me chamo Luís Trein.</h1>
+        <a href="imgs/Curriculo.pdf" download="Curriculo.pdf" id="curriculo">Currículo</a>
+      </div>
+      <div class="txt-container">
+        <h1 class="titulo-descricao">Desenvolvedor <br><span class="detalhe">Back-End</span> & <br><span
+            class="detalhe">QA Tester</span></h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos " id="projetos">
+    <h2 id="projetos">Projetos</h2>
+    <div class="container-cards">
+      <!-- Bikcraft -->
+      <div class="card " data-anime="scroll">
+
+        <div class="img-card">
+          <a href="https://kaicmachado.github.io/Bikcraft/" target="_blank"><img src="imgs/projetos/projeto-4.jpg"
+              alt="Imagem Projeto Bikcrafts"></a>
+        </div>
+        <div class="txt-card">
+          <h3>Bikcraft</h3>
+          <p>Site completo para fabricante de bicicletas, totalmente funcional. </p>
+          <span>Tecnologias Usadas:
+            <ul class="tec-list">
+              <li><img src="imgs/logos/logo-html.png" width="17" height="20" alt="Logo Html"></li>
+              <li><img src="imgs/logos/logo-css.png" width="17" height="20" alt="Logo CSS"></li>
+              <li><img src="imgs/logos/logo-github.png" width="17" height="20" alt="Logo Github"></li>
+              <li><img src="imgs/logos/logo-git.png" width="17" height="20" alt="Logo Git"></li>
+            </ul>
+          </span>
+        </div>
+
+      </div>
+
+      <!-- Caravan -->
+      <div class="card" data-anime="scroll">
+        <div class="txt-card">
+          <h3>Caravan</h3>
+          <p>Landing Page para empresa de viagens </p>
+          <span>Tecnologias Usadas:
+            <ul class="tec-list">
+              <li><img src="imgs/logos/logo-html.png" width="17" height="20" alt="Logo Html"></li>
+              <li><img src="imgs/logos/logo-css.png" width="17" height="20" alt="Logo CSS"></li>
+              <li><img src="imgs/logos/logo-github.png" width="17" height="20" alt="Logo Github"></li>
+              <li><img src="imgs/logos/logo-git.png" width="17" height="20" alt="Logo Git"></li>
+              <li><img src="imgs/logos/logo-bootstrap.png" alt="Logo Bootstrap" width="20" height="20"></li>
+            </ul>
+          </span>
+        </div>
+        <div class="img-card">
+          <a href="https://kaicmachado.github.io/Caravan-bootstrap/" target="_blank"><img
+              src="imgs/projetos/projeto-3.png" alt="Imagem Projeto Arte Suave"></a>
+        </div>
+
+      </div>
+
+      <!-- Arte Suave -->
+      <div class="card" data-anime="scroll">
+
+        <div class="img-card">
+          <a href="https://kaicmachado.github.io/Boom-Viagens" target="_blank"><img src="imgs/projetos/boom-viagens.jpg"
+              alt="Imagem Projeto Boom Viagens"></a>
+        </div>
+        <div class="txt-card">
+          <h3>Boom Viagens</h3>
+          <p>Projeto construído para ser usado como site para empresa de viagens e turismo</p>
+          <span>Tecnologias Usadas:
+            <ul class="tec-list">
+              <li><img src="imgs/logos/logo-html.png" width="17" height="20" alt="Logo Html"></li>
+              <li><img src="imgs/logos/logo-css.png" width="17" height="20" alt="Logo CSS"></li>
+              <li><img src="imgs/logos/logo-github.png" width="17" height="20" alt="Logo Github"></li>
+              <li><img src="imgs/logos/logo-git.png" width="17" height="20" alt="Logo Git"></li>
+              <li><img src="imgs/logos/logo-bootstrap.png" alt="Logo Bootstrap" width="20" height="20"></li>
+
+            </ul>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <a class="btn-projetos" href="projetos.html">Ver Mais </a>
+
+  </section>
+
+  <section class="sobre" id="sobre" data-anime="scroll">
+    <div class="sobre-content">
+      <div class="sobre-card">
+        <h2> Sobre</h2>
+        <p>Olá, me chamo <span>Luís</span>, nasci em 21 de fevereiro de 2005, sou apaixonado por tecnologia e <span>amo</span> programar.Já desenvolvi alguns projetos Front-End, mas hoje venho trocando de stack. <br>
+          Desenvolvo projetos utilizando <span>Java</span>, <span>C</span>, <span>JavaScript</span> e
+          <span>Python</span>. Porém estou sempre estudando e buscando novos conhecimentos em diferentes tecnologias, atualmente estou aprimorando com a linguagem Swift.
+        </p>
+      </div>
+      <div class="conhecimentos">
+        <div class="formacao">
+          <h3>Formação</h3>
+          <p>Cursando Engenharia de Software. <br>
+            Pela PUCRS.</p>
+          <p><a href="certificados.html" class="btn-certificados">Meus Certificados <span>➔</span></a></p>
+        </div>
+        <div class="tecnologias">
+          <h3>Tecnologias</h3>
+          <ul class="lista-tec">
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>SQL</li>
+            <li>Git</li>
+            <li>Swift</li>
+            <li>SpringBoot</li>
+            <li>Junit</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container" id="footer">
+      <h2 class="footer-h2">Estou disponível para novos desafios !</h2>
+      <ul class="footer-list">
+        <li>
+          <a href="https://www.linkedin.com/in/luís-eduardo-trein-rocha-55b087234/" target="_blank"><img src="imgs/logos/linkedin-black.png"
+              alt="Linkedin" width="50" height="50"></a>
+        </li>
+        <li>
+          <a href="https://www.github.com/TreinLuis/" target="_blank"><img src="imgs/logos/github-logo-footer.png"
+              alt="GitHub" width="50" height="50">
+          </a>
+        </li>
+        <li>
+          <a href="mailto:21luiseduardo2005@gmail.com" target="_blank"><img src="imgs/logos/email-black.png" alt="E-mail"
+              width="50" height="50"></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/luistrein/" target="_blank"><img src="imgs/logos/insta-logo.png"
+              alt="Instagram" width="50" height="50"></a>
+        </li>
+      </ul>
+      <p class="copy">©2024 Design and Code by Luís Trein</p>
+    </div>
+  </footer>
+
+
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
